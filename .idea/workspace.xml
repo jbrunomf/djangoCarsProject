@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="Update workspace and project settings &#10;&#10;Significantly trimmed the list of changes in the workspace.xml file. Moreover, made adjustments to the Django settings and url configuration files to include media path settings. These changes facilitate better work item management and media file handling in the project.">
-      <change afterPath="$PROJECT_DIR$/cars/templates/cars.html" afterDir="false" />
+    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/templates/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/cars/templates/cars.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoCarsProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCarsProject/urls.py" afterDir="false" />
@@ -15,6 +16,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,18 +61,29 @@
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/jbrun/PycharmProjects/djangoCarsProject/cars/templates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jbrun\PycharmProjects\djangoCarsProject\cars\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jbrun\PycharmProjects\djangoCarsProject\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="djangoCarsProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangoCarsProject" />
@@ -113,7 +128,8 @@
       <updated>1708474303480</updated>
       <workItem from="1708474304424" duration="218000" />
       <workItem from="1708474532318" duration="6509000" />
-      <workItem from="1710036820256" duration="1926000" />
+      <workItem from="1710036820256" duration="7862000" />
+      <workItem from="1710112075309" duration="165000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -131,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708565163098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="atualizando">
+      <option name="closed" value="true" />
+      <created>1710039252674</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710039252674</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +164,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="Update workspace and project settings &#10;&#10;Significantly trimmed the list of changes in the workspace.xml file. Moreover, made adjustments to the Django settings and url configuration files to include media path settings. These changes facilitate better work item management and media file handling in the project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace and project settings &#10;&#10;Significantly trimmed the list of changes in the workspace.xml file. Moreover, made adjustments to the Django settings and url configuration files to include media path settings. These changes facilitate better work item management and media file handling in the project." />
+    <MESSAGE value="atualizando" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualizando" />
   </component>
 </project>
