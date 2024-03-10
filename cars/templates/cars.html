@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carros</title>
+</head>
+<body>
+{% block content %}
+
+    <h1>Carros</h1>
+    {% for car in cars %}
+        {{ car }}
+    {% endfor %}
+
+{% endblock %}
+</body>
+</html>

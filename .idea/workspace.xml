@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="Initial">
+    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="Update workspace and project settings &#10;&#10;Significantly trimmed the list of changes in the workspace.xml file. Moreover, made adjustments to the Django settings and url configuration files to include media path settings. These changes facilitate better work item management and media file handling in the project.">
+      <change afterPath="$PROJECT_DIR$/cars/templates/cars.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoCarsProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCarsProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoCarsProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCarsProject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +20,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jbrunomf&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9da14460-f9c2-4407-9e76-65320b780cb2" />
+        <option name="url" value="https://github.com/jbrunomf/djangoCarsProject.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -35,11 +52,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Django Server.djangoCarsProject.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.djangoCarsProject.executor": "Debug",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -80,7 +99,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -93,7 +112,8 @@
       <option name="presentableId" value="Default" />
       <updated>1708474303480</updated>
       <workItem from="1708474304424" duration="218000" />
-      <workItem from="1708474532318" duration="5188000" />
+      <workItem from="1708474532318" duration="6509000" />
+      <workItem from="1710036820256" duration="1926000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -103,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708564870111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update workspace and project settings &#10;&#10;Significantly trimmed the list of changes in the workspace.xml file. Moreover, made adjustments to the Django settings and url configuration files to include media path settings. These changes facilitate better work item management and media file handling in the project.">
+      <option name="closed" value="true" />
+      <created>1708565163098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708565163098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Update workspace and project settings &#10;&#10;Significantly trimmed the list of changes in the workspace.xml file. Moreover, made adjustments to the Django settings and url configuration files to include media path settings. These changes facilitate better work item management and media file handling in the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace and project settings &#10;&#10;Significantly trimmed the list of changes in the workspace.xml file. Moreover, made adjustments to the Django settings and url configuration files to include media path settings. These changes facilitate better work item management and media file handling in the project." />
   </component>
 </project>
