@@ -14,11 +14,11 @@ def cars_view(request):
 
 def new_car_view(request):
     if request.method == 'POST':
-        form = forms.CarForm(request.POST, request.FILES)
+        form = forms.CarModelForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
             return redirect('cars_list')
     else:
-        form = forms.CarForm()
+        form = forms.CarModelForm()
     return render(request, 'new_car.html', {'form': form})
 
