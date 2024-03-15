@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="aplicando algumas validações no form">
-      <change afterPath="$PROJECT_DIR$/accounts/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/register.html" afterDir="false" />
+    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="adicionando forms de registro e login de usuário">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoCarsProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCarsProject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoCarsProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCarsProject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +133,7 @@
       <workItem from="1710036820256" duration="7862000" />
       <workItem from="1710112075309" duration="4119000" />
       <workItem from="1710374089640" duration="4004000" />
-      <workItem from="1710461510616" duration="1956000" />
+      <workItem from="1710461510616" duration="3947000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -200,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710377401502</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adicionando forms de registro e login de usuário">
+      <option name="closed" value="true" />
+      <created>1710463635008</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710463635008</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +221,18 @@
     <MESSAGE value="cadastro de carros" />
     <MESSAGE value="alterando p/ modelform no cadastro de carro" />
     <MESSAGE value="aplicando algumas validações no form" />
-    <option name="LAST_COMMIT_MESSAGE" value="aplicando algumas validações no form" />
+    <MESSAGE value="adicionando forms de registro e login de usuário" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando forms de registro e login de usuário" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cars/views.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

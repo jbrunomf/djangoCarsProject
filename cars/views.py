@@ -6,6 +6,9 @@ from cars import forms
 
 
 def cars_view(request):
+    if not request.user.is_authenticated:
+        return redirect('login')
+
     cars = Car.objects.all().order_by('model')
     search_string = request.GET.get('search')
     if search_string:
