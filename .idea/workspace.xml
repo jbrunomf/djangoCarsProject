@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="adicionando template base e fotos de carros de exemplo">
-      <change afterPath="$PROJECT_DIR$/cars/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/templates/new_car.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/djangoCarsProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoCarsProject.iml" afterDir="false" />
+    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="aplicando algumas validações no form">
+      <change afterPath="$PROJECT_DIR$/accounts/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoCarsProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCarsProject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoCarsProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCarsProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -45,6 +44,9 @@
         <option name="url" value="https://github.com/jbrunomf/djangoCarsProject.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -73,7 +75,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -130,7 +132,9 @@
       <workItem from="1708474304424" duration="218000" />
       <workItem from="1708474532318" duration="6509000" />
       <workItem from="1710036820256" duration="7862000" />
-      <workItem from="1710112075309" duration="3337000" />
+      <workItem from="1710112075309" duration="4119000" />
+      <workItem from="1710374089640" duration="4004000" />
+      <workItem from="1710461510616" duration="1956000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -164,7 +168,39 @@
       <option name="project" value="LOCAL" />
       <updated>1710112284711</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cadastro de carros">
+      <option name="closed" value="true" />
+      <created>1710119846342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710119846342</updated>
+    </task>
+    <task id="LOCAL-00006" summary="alterando p/ modelform no cadastro de carro">
+      <option name="closed" value="true" />
+      <created>1710375104270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710375104270</updated>
+    </task>
+    <task id="LOCAL-00007" summary="alterando p/ modelform no cadastro de carro">
+      <option name="closed" value="true" />
+      <created>1710375361920</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710375361920</updated>
+    </task>
+    <task id="LOCAL-00008" summary="aplicando algumas validações no form">
+      <option name="closed" value="true" />
+      <created>1710377401502</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710377401502</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,17 +211,9 @@
     <MESSAGE value="Update workspace and project settings &#10;&#10;Significantly trimmed the list of changes in the workspace.xml file. Moreover, made adjustments to the Django settings and url configuration files to include media path settings. These changes facilitate better work item management and media file handling in the project." />
     <MESSAGE value="atualizando" />
     <MESSAGE value="adicionando template base e fotos de carros de exemplo" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando template base e fotos de carros de exemplo" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cars/views.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="cadastro de carros" />
+    <MESSAGE value="alterando p/ modelform no cadastro de carro" />
+    <MESSAGE value="aplicando algumas validações no form" />
+    <option name="LAST_COMMIT_MESSAGE" value="aplicando algumas validações no form" />
   </component>
 </project>
