@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="autenticação do usuário ok">
+    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="ajustabdo exibição do menu para usuários logados / deslogados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoCarsProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCarsProject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +133,7 @@
       <workItem from="1710374089640" duration="4004000" />
       <workItem from="1710461510616" duration="4058000" />
       <workItem from="1711072527661" duration="6000" />
-      <workItem from="1711916706538" duration="1628000" />
+      <workItem from="1711916706538" duration="2976000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -216,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710465521132</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ajustabdo exibição do menu para usuários logados / deslogados">
+      <option name="closed" value="true" />
+      <created>1711918531846</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711918531846</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +239,7 @@
     <MESSAGE value="aplicando algumas validações no form" />
     <MESSAGE value="adicionando forms de registro e login de usuário" />
     <MESSAGE value="autenticação do usuário ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="autenticação do usuário ok" />
+    <MESSAGE value="ajustabdo exibição do menu para usuários logados / deslogados" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajustabdo exibição do menu para usuários logados / deslogados" />
   </component>
 </project>

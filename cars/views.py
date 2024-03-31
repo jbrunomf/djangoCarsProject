@@ -1,19 +1,30 @@
-from django.contrib.auth import authenticate
 from django.shortcuts import render, redirect
+from django.views import View
 
 from cars.models import Car
 from cars import forms
 
 
-def cars_view(request):
-    if not request.user.is_authenticated:
-        return redirect('login')
+# def cars_view(request):
+#     if not request.user.is_authenticated:
+#         return redirect('login')
+#
+#     cars = Car.objects.all().order_by('model')
+#     search_string = request.GET.get('search')
+#     if search_string:
+#         cars = Car.objects.filter(model__contains=search_string)
+#     return render(request, 'cars.html', {'cars': cars})
 
-    cars = Car.objects.all().order_by('model')
-    search_string = request.GET.get('search')
-    if search_string:
-        cars = Car.objects.filter(model__contains=search_string)
-    return render(request, 'cars.html', {'cars': cars})
+class ListCarView(View):
+    def get(self, request):
+        if not request.user.is_authenticated:
+            return redirect('login')
+
+        cars = Car.objects.all().order_by('model')
+        search_string = request.GET.get('search')
+        if search_string:
+            cars = Car.objects.filter(model__icontains=search_string)
+        return render(request, 'cars.html', {'cars': cars})
 
 
 def new_car_view(request):
@@ -25,4 +36,3 @@ def new_car_view(request):
     else:
         form = forms.CarModelForm()
     return render(request, 'new_car.html', {'form': form})
-
