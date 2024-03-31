@@ -24,6 +24,10 @@ def login_view(request):
         if user is not None:
             login(request, user)
             return redirect('cars_list')
+        else:
+            login_form = AuthenticationForm()
+            login_form.errors['username'] = "Invalid username or password"
+            return render(request, 'login.html', {'login_form': login_form})
     else:
         return render(request, 'login.html', {'login_form': login_form})
 
