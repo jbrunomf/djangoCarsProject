@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="utilizando CBV na view de adição de veículo">
+    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="utilizando CBV na view de criação de veículo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +132,7 @@
       <workItem from="1710374089640" duration="4004000" />
       <workItem from="1710461510616" duration="4058000" />
       <workItem from="1711072527661" duration="6000" />
-      <workItem from="1711916706538" duration="12482000" />
+      <workItem from="1711916706538" duration="13090000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -248,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711921286333</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="utilizando CBV na view de criação de veículo">
+      <option name="closed" value="true" />
+      <created>1711933555865</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711933555865</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +285,7 @@
     <MESSAGE value="Utilizando CBV na view de listagem de veículos" />
     <MESSAGE value="removendo import inválido" />
     <MESSAGE value="utilizando CBV na view de adição de veículo" />
-    <option name="LAST_COMMIT_MESSAGE" value="utilizando CBV na view de adição de veículo" />
+    <MESSAGE value="utilizando CBV na view de criação de veículo" />
+    <option name="LAST_COMMIT_MESSAGE" value="utilizando CBV na view de criação de veículo" />
   </component>
 </project>

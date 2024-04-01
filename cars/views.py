@@ -1,10 +1,13 @@
 from django.views.generic import ListView, CreateView
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 from cars.models import Car
 from cars import forms
 
 
-class ListCarView(ListView):
+class ListCarView(LoginRequiredMixin, ListView):
+    login_url = '/login/'
+    redirect_field_name = 'redirect_to'
     model = Car
     template_name = 'cars.html'
     context_object_name = 'cars'
@@ -18,7 +21,9 @@ class ListCarView(ListView):
         return cars
 
 
-class NewCarView(CreateView):
+class NewCarView(LoginRequiredMixin, CreateView):
+    login_url = '/login/'
+    redirect_field_name = 'redirect_to'
     model = Car
     form_class = forms.CarModelForm
     template_name = 'new_car.html'
