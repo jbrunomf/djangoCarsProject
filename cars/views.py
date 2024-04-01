@@ -1,32 +1,25 @@
-from django.shortcuts import render, redirect
-from django.views import View
+from django.views.generic import ListView, CreateView
 
 from cars.models import Car
 from cars import forms
 
 
-class ListCarView(View):
-    def get(self, request):
-        if not request.user.is_authenticated:
-            return redirect('login')
+class ListCarView(ListView):
+    model = Car
+    template_name = 'cars.html'
+    context_object_name = 'cars'
 
-        cars = Car.objects.all().order_by('model')
-        search_string = request.GET.get('search')
-        if search_string:
-            cars = Car.objects.filter(model__icontains=search_string)
-        return render(request, 'cars.html', {'cars': cars})
+    def get_queryset(self):
+        cars = super().get_queryset().order_by('model')
+        search = self.request.GET.get('search')
 
-class NewCarView(View):
-    def get(self, request):
-        if not request.user.is_authenticated:
-            return redirect("login")
-        form = forms.CarModelForm()
-        return render(request, 'new_car.html', {'form': form})
+        if search:
+            cars = cars.filter(model__icontains=search)
+        return cars
 
-    def post(self, request):
-        form = forms.CarModelForm(request.POST, request.FILES)
-        if form.is_valid():
-            form.save()
-            return redirect('cars_list')
-        else:
-            return render(request, 'new_car.html', {'form': form})
+
+class NewCarView(CreateView):
+    model = Car
+    form_class = forms.CarModelForm
+    template_name = 'new_car.html'
+    success_url = '/cars/'
