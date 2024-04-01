@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="utilizando CBV na view de criação de veículo">
+    <list default="true" id="51698abf-b75d-401b-a595-6d5e1dfa1907" name="Changes" comment="Correção">
+      <change afterPath="$PROJECT_DIR$/cars/templates/car_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoCarsProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCarsProject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +83,7 @@
       <recent name="C:\Users\jbrun\PycharmProjects\djangoCarsProject\cars\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jbrun\PycharmProjects\djangoCarsProject\cars\templates" />
       <recent name="C:\Users\jbrun\PycharmProjects\djangoCarsProject\templates" />
     </key>
   </component>
@@ -132,7 +136,7 @@
       <workItem from="1710374089640" duration="4004000" />
       <workItem from="1710461510616" duration="4058000" />
       <workItem from="1711072527661" duration="6000" />
-      <workItem from="1711916706538" duration="13090000" />
+      <workItem from="1711916706538" duration="13413000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -254,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711933555865</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Correção">
+      <option name="closed" value="true" />
+      <created>1711934123124</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711934123124</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +298,7 @@
     <MESSAGE value="removendo import inválido" />
     <MESSAGE value="utilizando CBV na view de adição de veículo" />
     <MESSAGE value="utilizando CBV na view de criação de veículo" />
-    <option name="LAST_COMMIT_MESSAGE" value="utilizando CBV na view de criação de veículo" />
+    <MESSAGE value="Correção" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção" />
   </component>
 </project>

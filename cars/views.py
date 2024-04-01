@@ -1,4 +1,4 @@
-from django.views.generic import ListView, CreateView
+from django.views.generic import ListView, CreateView, DetailView
 from django.contrib.auth.mixins import LoginRequiredMixin
 
 from cars.models import Car
@@ -28,3 +28,8 @@ class NewCarView(LoginRequiredMixin, CreateView):
     form_class = forms.CarModelForm
     template_name = 'new_car.html'
     success_url = '/cars/'
+
+
+class CarDetailView(DetailView):
+    model = Car
+    template_name = 'car_detail.html'
